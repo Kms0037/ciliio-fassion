@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top-nav{
+    width: 100%;
+    height: 250px;
+   
+    position: sticky;
+   
+    
+}
+
+.backgrond-image{
+background-image: url('./background/home.jpg' ) ;
+object-fit: none;
+background-position: left;
+background-size: cover;
+background-attachment: scroll;
+width: 100%;
+height:4000px;
+background-repeat: no-repeat;
+
+
+}
+.logo{
+    position: fixed;
+    margin-left: -40px;
+    margin-top: 25px;
+    margin-right: 130%;
+    display: flex;
+   height: 1500px;
+    width: 50%;
+    position: sticky;
+    background-attachment: scroll;
+}
+.lgo-image{
+    height: 1900px;
+    width: 100%;
+    
+  
+}
+.quotes p{
+    font-size: 135px;
+    letter-spacing: 1px;
+    padding-left: 160px;
+    width: 100%;
+    color: rgb(245, 114, 0);
+    position: absolute;
+    top: 2000px;
+    left: 0;
+    font-weight: 700;
+    text-align: left;
+    text-shadow:15px 25px 15px rgb(62, 62, 62);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.quotes p:hover{
+    transition: 300ms;
+    text-shadow:15px 25px 15px rgb(57, 57, 57);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+  
+.top-nav h1{/* toop logo name*/
+    height: 250px;
+    width: 25%;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 260px;
+    float: left;
+    
+    letter-spacing: 5px;
+
+}
+.navigation{
+    float: left;
+    height: 250px;
+    width: 75%;
+    position: sticky;
+    top: 0;
+    
+    
+   
+}
+.navigation h1{
+    float: left;
+    font-size: 80px;
+    margin-left: 5px;
+    width: 20%;
+    margin-top: 50px;
+    letter-spacing: 1px;
+    text-align: center;
+    position:relative;
+    justify-self:center;
+    border: none;
+    cursor: pointer;
+    color: rgb(213, 213, 212);
+
+}
+.navigation h1:hover{
+    text-shadow: 10px 10px 10px black;
+    color: yellowgreen;
+}
+.navigation .login{
+    height: 200px;
+    width: 450px;
+    margin: 20px;
+    font-size: 70px;
+    font-weight: 700;
+    border-radius: 80px;
+    margin-left: 90px;
+    background-color: rgba(255, 255, 253, 0.237);
+    border: none;
+    box-shadow: 5px 10px 40px black;
+    cursor: pointer;
+
+}
+
+.navigation .login:hover{
+    background-color: #fff;
+    color: black;
+    height: 220px;
+    width: 470px;
+    transition: 300ms;
+    
+}
+.choice{
+    height: 400px;
+    width: 100%;
+    background-color: rgba(241, 137, 100, 0.534);
+    float: left;
+}
+.choice h1{
+    float: left;
+    font-size: 120px;
+    margin-left: 450px;
+    margin-top: 110px;
+    letter-spacing: 1px;
+    text-align: center;
+    position:relative;
+    justify-self:center;
+    cursor: pointer;
+    color: #fff;
+}
+.choice h1:hover{
+    color: rgb(8, 8, 8);
+    text-shadow: 10px 10px 10px rgba(19, 17, 17, 0.379);
+    
+}
+.photo-section{
+    height: 220vh;
+    width: 100%;
+    background-color: rgb(231, 191, 171);
+
+}
+.about{
+    height: 80vh;
+    width: 100%;
+   background-color: antiquewhite;
+   justify-content: center;
+   margin: auto;
+   background-repeat: no-repeat;
+
+}
+/* photo frames geesighn starting */
+
+.photo-section .photos{
+    margin: 100px 170px 100px 100px;
+    height: 1500px;
+    width: 20%;
+    border-radius: 100px;
+    float: right;
+    background-color: antiquewhite;
+   
+}
+.photos .image img{
+height: 1300px;
+width: 100%;
+justify-content: center;
+padding: 50px;
+align-items: center;
+border-radius: 150px;
+}
+.photos .image img:hover{
+    padding: 30px;
+    transition: 300ms;
+}
+.img-details  h2{
+    font-size: 90px;
+    text-align: center;
+    margin-top: 0px;
+    font-weight: 600;
+    line-height: 10px;
+    font-family: tahoma;
+    width: 100%;
+    height: 130px;
+    text-decoration:solid;
+    color: black;
+    float: left;
+
+
+}
+.photos h2:hover{
+    font-size: 95px;
+}
+
+.img-details .price {
+    color: rgba(48, 48, 46, 0.849);
+    margin-top: -100px;
+}
+.img-details .right{
+    float: left;
+    border: 10px solid black;
+    width: 50%;
+    height: 200px;
+}
+.botom-logo{
+    position: absolute;
+    float: inline-end;
+    height: 45vh;
+    width: 40%;
+    margin-top: 10vh;
+    background-image: url("./cilio logo/logo-transparent.png");
+    background-color: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+}
+.about .botom-logo{
+    
+    object-fit: none;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    width: 40%;
+    height:55vh;
+    margin-left: 30%;
+    background-repeat: no-repeat;
+
+}
+.social-media{
+    height: 10vh;
+    width: 100%;
+    background-color: #d1be95;
+    
+}
+
